@@ -1,0 +1,20 @@
+{
+ "client_id": "https://hexsploit0x01.github.io/notnikhil-cimd/client.json",
+ "client_name": "notnikhil-research-agent",
+ "client_uri": "https://hexsploit0x01.github.io/notnikhil-cimd/",
+ "redirect_uris": [
+  "https://example.com/cb",
+  "https://hexsploit0x01.github.io/notnikhil-cimd/cb.html",
+  "http://localhost:9999/cb",
+  "http://127.0.0.1:9999/cb"
+ ],
+ "grant_types": [
+  "authorization_code",
+  "refresh_token"
+ ],
+ "response_types": [
+  "code"
+ ],
+ "token_endpoint_auth_method": "none",
+ "scope": "openid email customer-account-mcp-api:full customer-account-api:full"
+}
